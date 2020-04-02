@@ -1,5 +1,7 @@
-MODEL_MAPPING=dict(
-    location=r'C:\Work\Mondra\Repos\Hestia.Earth\data\database.csv',
+from pathlib import Path
+
+MODEL_MAPPING = dict(
+    location=Path('data/database.csv'),
     location_type='file',
     data_format='csv',
     separator='|',
