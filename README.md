@@ -194,7 +194,7 @@ property (column) map that defines what values to load and how to assign it:
     farm_infrastructure_mapping.py
 
     MODEL_MAPPING=dict(  
-    location=r'D:\ProArch\hestia\data\database.csv',  
+    location=r'C:\Work\Mondra\Repos\Hestia.Earth\data\database.csv',  
     location_type='file',  
     data_format='csv',  
     separator='|',  

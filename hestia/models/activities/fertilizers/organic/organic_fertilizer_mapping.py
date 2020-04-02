@@ -1,5 +1,5 @@
 MODEL_MAPPING=dict(
-    location=r'D:\ProArch\hestia\data\database.csv',
+    location=r'C:\Work\Mondra\Repos\Hestia.Earth\data\database.csv',
     location_type='file',
     data_format='csv',
     separator='|',

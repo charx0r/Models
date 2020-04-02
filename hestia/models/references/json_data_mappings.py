@@ -1,5 +1,7 @@
+from pathlib import Path
+
 DATA_MAPPING = dict(
-    location = 'D:\ProArch\hestia\data',
+    location = Path('data'),
     constants= {
         # net heating values
         'Conv_Diesel_kg_kWh':'net_heating_diesel_kWh',

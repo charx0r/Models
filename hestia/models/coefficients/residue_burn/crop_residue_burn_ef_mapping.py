@@ -1,5 +1,7 @@
+from pathlib import Path
+
 MODEL_MAPPING=dict(
-    location=r'D:\ProArch\hestia\data',
+    location=Path('data'),
     location_type='directory',
     data_format='json',
     id_key='name',
